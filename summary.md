@@ -16,7 +16,7 @@ The two directions used in The Pain Axis overlap. [PR #4](https://github.com/val
 
 ### Relation to the conceptor study
 
-In my [previous work on conceptor complements](https://arxiv.org/abs/2610.16325) (NeurIPS 2026 NeurReps workshop), I separated the effect of the fitted matrix from the shared centring and gain:
+In my [previous work on conceptor complements](https://arxiv.org/abs/2610.16325), I separated the effect of the fitted matrix from the shared centring and gain:
 
 $$
 F_C(h)=m+\beta(I-C)(h-m),\qquad F_0(h)=m+\beta(h-m).

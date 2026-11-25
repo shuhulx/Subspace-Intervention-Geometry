@@ -1,0 +1,16 @@
+# Python 3.12 GPU environment. TransformerLens 2.16.1 requires NumPy <2.
+# Keep the original CPU requirements/freeze unchanged for historical replay.
+torch==2.8.0
+transformer-lens==2.16.1
+transformers==4.55.4
+accelerate==1.10.1
+huggingface-hub==0.36.2
+tokenizers==0.21.4
+safetensors==0.6.2
+sentencepiece==0.2.1
+requests==2.34.2
+numpy==1.26.4
+scikit-learn==1.8.0
+# Newer PyArrow wheels require NumPy 2 despite resolver-compatible metadata.
+pyarrow==20.0.0
+pandas==2.3.2

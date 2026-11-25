@@ -1,0 +1,17 @@
+.env
+.env.*
+*.pem
+*.key
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.log
+__pycache__/
+.pytest_cache/
+.venv/
+.venv-*/
+external/
+local-runs/
+private-ratings/
+.DS_Store

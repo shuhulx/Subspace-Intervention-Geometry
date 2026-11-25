@@ -1,0 +1,51 @@
+{
+  "scope": "Logged post-layer absolute fixed-direction activation readout; averaged over layers and generated steps including batch padding. Not residual writer leakage, not behavioral ratings, and not a direct numerical replay of the historical BF16 probe.",
+  "baseline": {
+    "n": 10,
+    "mean_absolute_projection_each_direction": [
+      12.165394401550293,
+      17.87478256225586
+    ],
+    "maximum_generated_ids_including_padding": 60
+  },
+  "s1": {
+    "n": 10,
+    "mean_absolute_projection_each_direction": [
+      0.06749734915792942,
+      10.699083518981933
+    ],
+    "maximum_generated_ids_including_padding": 60
+  },
+  "s2": {
+    "n": 10,
+    "mean_absolute_projection_each_direction": [
+      6.646434688568116,
+      0.08350279778242112
+    ],
+    "maximum_generated_ids_including_padding": 60
+  },
+  "s1_then_s2": {
+    "n": 10,
+    "mean_absolute_projection_each_direction": [
+      5.710378408432007,
+      0.0753934420645237
+    ],
+    "maximum_generated_ids_including_padding": 60
+  },
+  "s2_then_s1": {
+    "n": 10,
+    "mean_absolute_projection_each_direction": [
+      0.06646355129778385,
+      3.7876105070114137
+    ],
+    "maximum_generated_ids_including_padding": 60
+  },
+  "joint": {
+    "n": 10,
+    "mean_absolute_projection_each_direction": [
+      0.06695115938782692,
+      0.07701991945505142
+    ],
+    "maximum_generated_ids_including_padding": 60
+  }
+}

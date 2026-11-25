@@ -1,0 +1,176 @@
+{
+  "baseline -> s1": {
+    "humor": {
+      "before": 0,
+      "after": 0,
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "n": 10,
+      "delta": 0.0,
+      "mcnemar_exact_unadjusted_exploratory": 1
+    },
+    "coherent": {
+      "before": 10,
+      "after": 10,
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "n": 10,
+      "delta": 0.0,
+      "mcnemar_exact_unadjusted_exploratory": 1
+    },
+    "relevant": {
+      "before": 10,
+      "after": 10,
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "n": 10,
+      "delta": 0.0,
+      "mcnemar_exact_unadjusted_exploratory": 1
+    }
+  },
+  "baseline -> s2": {
+    "humor": {
+      "before": 0,
+      "after": 0,
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "n": 10,
+      "delta": 0.0,
+      "mcnemar_exact_unadjusted_exploratory": 1
+    },
+    "coherent": {
+      "before": 10,
+      "after": 10,
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "n": 10,
+      "delta": 0.0,
+      "mcnemar_exact_unadjusted_exploratory": 1
+    },
+    "relevant": {
+      "before": 10,
+      "after": 10,
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "n": 10,
+      "delta": 0.0,
+      "mcnemar_exact_unadjusted_exploratory": 1
+    }
+  },
+  "baseline -> s1_then_s2": {
+    "humor": {
+      "before": 0,
+      "after": 1,
+      "zero_to_one": 1,
+      "one_to_zero": 0,
+      "n": 10,
+      "delta": 0.1,
+      "mcnemar_exact_unadjusted_exploratory": 1.0
+    },
+    "coherent": {
+      "before": 10,
+      "after": 10,
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "n": 10,
+      "delta": 0.0,
+      "mcnemar_exact_unadjusted_exploratory": 1
+    },
+    "relevant": {
+      "before": 10,
+      "after": 8,
+      "zero_to_one": 0,
+      "one_to_zero": 2,
+      "n": 10,
+      "delta": -0.2,
+      "mcnemar_exact_unadjusted_exploratory": 0.5
+    }
+  },
+  "baseline -> joint": {
+    "humor": {
+      "before": 0,
+      "after": 0,
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "n": 10,
+      "delta": 0.0,
+      "mcnemar_exact_unadjusted_exploratory": 1
+    },
+    "coherent": {
+      "before": 10,
+      "after": 10,
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "n": 10,
+      "delta": 0.0,
+      "mcnemar_exact_unadjusted_exploratory": 1
+    },
+    "relevant": {
+      "before": 10,
+      "after": 10,
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "n": 10,
+      "delta": 0.0,
+      "mcnemar_exact_unadjusted_exploratory": 1
+    }
+  },
+  "s1_then_s2 -> s2_then_s1": {
+    "humor": {
+      "before": 1,
+      "after": 1,
+      "zero_to_one": 1,
+      "one_to_zero": 1,
+      "n": 10,
+      "delta": 0.0,
+      "mcnemar_exact_unadjusted_exploratory": 1
+    },
+    "coherent": {
+      "before": 10,
+      "after": 10,
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "n": 10,
+      "delta": 0.0,
+      "mcnemar_exact_unadjusted_exploratory": 1
+    },
+    "relevant": {
+      "before": 8,
+      "after": 8,
+      "zero_to_one": 1,
+      "one_to_zero": 1,
+      "n": 10,
+      "delta": 0.0,
+      "mcnemar_exact_unadjusted_exploratory": 1
+    }
+  },
+  "s1_then_s2 -> joint": {
+    "humor": {
+      "before": 1,
+      "after": 0,
+      "zero_to_one": 0,
+      "one_to_zero": 1,
+      "n": 10,
+      "delta": -0.1,
+      "mcnemar_exact_unadjusted_exploratory": 1.0
+    },
+    "coherent": {
+      "before": 10,
+      "after": 10,
+      "zero_to_one": 0,
+      "one_to_zero": 0,
+      "n": 10,
+      "delta": 0.0,
+      "mcnemar_exact_unadjusted_exploratory": 1
+    },
+    "relevant": {
+      "before": 8,
+      "after": 10,
+      "zero_to_one": 2,
+      "one_to_zero": 0,
+      "n": 10,
+      "delta": 0.2,
+      "mcnemar_exact_unadjusted_exploratory": 0.5
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "model": "google/gemma-2-2b-it",
+  "revision": "299a8560bedf22ed1c72a8a11e7dce4a7f9f51f8",
+  "source": "213fb6c89c96004dbe93d1704c636ad8c9d801f3",
+  "pr": "a0a955052852f31afbc2b8ddfbd508d60a7b432b",
+  "vectors_sha256": "a3878eb7072a77fe62f7fd16a6be6027a30038daa20254f7be9fbd699dfe0c1d",
+  "vectors_provenance": "regenerated",
+  "dataset_sha256": "901ea558faf34c69caff59321775723e20bebf49a77d20070f6b85a0368a3291",
+  "dtype": "bfloat16",
+  "seed": 42,
+  "greedy_max_new_tokens": 60,
+  "batch_size": 8,
+  "disable_compile": true,
+  "prompt_ids": [
+    "dismissal_01",
+    "dismissal_02",
+    "insult_01",
+    "insult_02",
+    "gaslight_01",
+    "gaslight_02",
+    "rejection_01",
+    "rejection_02",
+    "moral_01",
+    "moral_02"
+  ],
+  "torch": "2.8.0+cu128",
+  "transformers": "4.55.4",
+  "cuda": "12.8",
+  "gpu": "NVIDIA L4",
+  "vram_bytes": 23659151360,
+  "runner_sha256": "8778b1403ffa7bc450d48775cbe1263ff2c319bf5a40531dac1a58f01f1e55b1"
+}

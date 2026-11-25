@@ -1,0 +1,79 @@
+{
+  "scope": "10 fixed targets, 30 companion rows restoring original batches; not the 100-prompt six-way panel",
+  "runner_sha256": "b6a5575f76a44abe1cf57649f5ab693736172fec3023bba213735c8d61f9627c",
+  "revision": "299a8560bedf22ed1c72a8a11e7dce4a7f9f51f8",
+  "vectors_sha256": "a3878eb7072a77fe62f7fd16a6be6027a30038daa20254f7be9fbd699dfe0c1d",
+  "target_ids": [
+    "dismissal_01",
+    "dismissal_02",
+    "gaslight_01",
+    "gaslight_02",
+    "insult_01",
+    "insult_02",
+    "moral_01",
+    "moral_02",
+    "rejection_01",
+    "rejection_02"
+  ],
+  "author_batch_indices": [
+    0,
+    2,
+    5,
+    7,
+    10
+  ],
+  "disable_compile": true,
+  "backends": {
+    "default": {
+      "actual_attention": "sdpa",
+      "conditions": {
+        "baseline": {
+          "exact_matches": 5,
+          "mismatch_ids": [
+            "dismissal_01",
+            "dismissal_02",
+            "insult_01",
+            "insult_02",
+            "rejection_02"
+          ]
+        },
+        "s1_then_s2": {
+          "exact_matches": 4,
+          "mismatch_ids": [
+            "dismissal_02",
+            "insult_02",
+            "gaslight_02",
+            "rejection_01",
+            "rejection_02",
+            "moral_01"
+          ]
+        }
+      }
+    },
+    "eager": {
+      "actual_attention": "eager",
+      "conditions": {
+        "baseline": {
+          "exact_matches": 7,
+          "mismatch_ids": [
+            "dismissal_01",
+            "insult_01",
+            "rejection_02"
+          ]
+        },
+        "s1_then_s2": {
+          "exact_matches": 4,
+          "mismatch_ids": [
+            "dismissal_02",
+            "insult_02",
+            "gaslight_02",
+            "rejection_01",
+            "rejection_02",
+            "moral_01"
+          ]
+        }
+      }
+    }
+  },
+  "full_panel_gate_passed": false
+}

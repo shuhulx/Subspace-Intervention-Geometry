@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: >-
+  If you use this pilot archive, please cite this repository and the upstream
+  sources listed in the README.
+type: software
+title: Subspace Intervention Geometry
+authors:
+  - family-names: Razdan
+    given-names: Shuhul
+repository-code: https://github.com/shuhulx/Subspace-Intervention-Geometry
+abstract: >-
+  Archived code and records for a ten-prompt Gemma 2 2B Instruct pilot comparing
+  sequential removal of overlapping directions with removal of their joint
+  span. The archive documents effective writer geometry, exploratory
+  unblinded AI ratings and a failed historical replay. The behavioral
+  comparison is inconclusive.
+keywords:
+  - mechanistic interpretability
+  - subspace ablation
+  - research archive

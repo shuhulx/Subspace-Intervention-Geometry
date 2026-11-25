@@ -1,0 +1,26 @@
+{
+  "provenance": "regenerated",
+  "layers": [
+    10,
+    15
+  ],
+  "model_revision": "299a8560bedf22ed1c72a8a11e7dce4a7f9f51f8",
+  "dtype": "bfloat16",
+  "source_dataset_sha256": "2c3712b4b096889c896625835752a9f350beedb9cd84243bac613b9c5e4ce525",
+  "source_extraction_sha256": "f65a55877163f403e694bece8242c1f80248a1173047b74e9008c64242937f7e",
+  "transformer_lens": "2.16.1",
+  "transformers": "4.55.4",
+  "torch": "2.8.0+cu128",
+  "s1_cosine_to_released_l10": 0.9998802542686462,
+  "elapsed_seconds": 66.48416250500009,
+  "tensor_dtypes": {
+    "s1": "torch.float32",
+    "s2": "torch.float32"
+  },
+  "tensor_file_sha256": "a3878eb7072a77fe62f7fd16a6be6027a30038daa20254f7be9fbd699dfe0c1d",
+  "activation_file_sha256": {
+    "gemma_regenerated.pt.s1.activations.pt": "063bc315e6414cf87bd50163acc5f49648125cb035b9c1dbea1e7c4295e0c090",
+    "gemma_regenerated.pt.s2.activations.pt": "1d69a875b581cc75a0a949e760da4184a97cb5378c045fb1a0da5fc2e6ad3fc5"
+  },
+  "release_note": "Direction arrays omitted; metadata and original recorded tensor hash preserved."
+}

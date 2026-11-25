@@ -1,0 +1,17 @@
+{
+  "model": "meta-llama/Llama-3.2-3B",
+  "model_revision": "13afe5124825b4f3751f836b40dafda64c1ed062",
+  "tokenizer_revision": "13afe5124825b4f3751f836b40dafda64c1ed062",
+  "dtype": "bfloat16",
+  "source_commit": "c3ef94b9eb57b621f757018db5dcad576c82c528",
+  "alpha": 0.98,
+  "x": 0.4,
+  "alphabets": {"A": [" F", " Q"], "B": [" K", " M"]},
+  "seeds": [18469372, 290751034, 681033517, 1049273621, 1690188275, 2268930417, 3129507641, 3975208463],
+  "symbols": 20000,
+  "context_edges": [0, 250, 1000, 5000, 10000, 15000, 20000],
+  "partition": "development",
+  "head_chunk": 128,
+  "paired_t_95_multiplier_df7": 2.3646242515927844,
+  "feasibility_rule": "Recommend a transfer pilot only when the lower endpoint of the trajectory-level paired two-sided 95% t interval for late order-3 KL minus model full-vocabulary KL is greater than zero in both alphabets. Late is input positions [15000, 20000). Report mass and separate alphabet intervals."
+}

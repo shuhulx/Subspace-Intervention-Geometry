@@ -1,0 +1,569 @@
+{
+  "format": 1,
+  "recorded_run_date": "2026-11-19",
+  "note": "Git blob SHA-1 identifiers pin file contents in the archived source and this release. The original smoke runner is preserved at its recorded hash. Replay files are archived checkpoint transcriptions; not asserted to be byte-identical to the original runtime files.",
+  "artifacts": [
+    {
+      "path": "pain_axis/blind.py",
+      "git_blob_sha1": "911c05bc92856666dc339cabe4eaa266b195631a",
+      "source_git_blob_sha1": "911c05bc92856666dc339cabe4eaa266b195631a",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "pain_axis/blind.py"
+    },
+    {
+      "path": "pain_axis/geometry.py",
+      "git_blob_sha1": "e40e2b6a6c7821936172edd51eefe9c3a7b0d489",
+      "source_git_blob_sha1": "e40e2b6a6c7821936172edd51eefe9c3a7b0d489",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "pain_axis/geometry.py"
+    },
+    {
+      "path": "pain_axis/historical.py",
+      "git_blob_sha1": "e2cf4abbc060894be38e55d5739674758517fcdc",
+      "source_git_blob_sha1": "e2cf4abbc060894be38e55d5739674758517fcdc",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "pain_axis/historical.py"
+    },
+    {
+      "path": "pain_axis/inspect_run.py",
+      "git_blob_sha1": "aeffb947ba5d4cc74908364c419c816755e1999e",
+      "source_git_blob_sha1": "aeffb947ba5d4cc74908364c419c816755e1999e",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "pain_axis/inspect_run.py"
+    },
+    {
+      "path": "pain_axis/regenerate.py",
+      "git_blob_sha1": "e7eb5a93a3ed4029a0f2da35823fa34685ee1198",
+      "source_git_blob_sha1": "e7eb5a93a3ed4029a0f2da35823fa34685ee1198",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "pain_axis/regenerate.py"
+    },
+    {
+      "path": "pain_axis/replay_debug.py",
+      "git_blob_sha1": "ea59f20ea272c90a4a929c7f8638efbbb35d76ad",
+      "source_git_blob_sha1": "ea59f20ea272c90a4a929c7f8638efbbb35d76ad",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "pain_axis/replay_debug.py"
+    },
+    {
+      "path": "pain_axis/rubric.md",
+      "git_blob_sha1": "ba9deeba5d9f81c93278293043ce398d75e96508",
+      "source_git_blob_sha1": "ba9deeba5d9f81c93278293043ce398d75e96508",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "pain_axis/rubric.md"
+    },
+    {
+      "path": "pain_axis/run.py",
+      "git_blob_sha1": "11d5eca0a490af31b28146570bea1b40121cccbd",
+      "source_git_blob_sha1": "11d5eca0a490af31b28146570bea1b40121cccbd",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "pain_axis/run.py"
+    },
+    {
+      "path": "pain_axis/smoke_runner.py",
+      "git_blob_sha1": "769dccf54c5129f3aeb906607b1a75c2a4bd4cf5",
+      "source_git_blob_sha1": "769dccf54c5129f3aeb906607b1a75c2a4bd4cf5",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "6419c7b40a38f2438b5e816f1aaccbe7cef2bcbf",
+      "source_path": "pain_axis/run.py"
+    },
+    {
+      "path": "requirements-recorded.txt",
+      "git_blob_sha1": "4a2ee8d63b747aa5329fbae201748049083f3f41",
+      "source_git_blob_sha1": "4a2ee8d63b747aa5329fbae201748049083f3f41",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "shared/gpu-requirements.txt"
+    },
+    {
+      "path": "results/direction_metadata.json",
+      "git_blob_sha1": "d48f27b85f8e747f5918175b56de03284dc56a51",
+      "source_git_blob_sha1": "e618abf662a78dae629516069f3e55397b55b63d",
+      "transformation": "Numeric direction arrays omitted; original recorded tensor hash retained.",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/regenerated_vectors.json"
+    },
+    {
+      "path": "results/historical_summary.json",
+      "git_blob_sha1": "059d1303999e3b99570fafa941e30751b7904d69",
+      "source_git_blob_sha1": "059d1303999e3b99570fafa941e30751b7904d69",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/historical_summary.json"
+    },
+    {
+      "path": "results/ratings/ai_unblinded_ratings.csv",
+      "git_blob_sha1": "298138141028c73e6a30bccaa2ec05e032f247a6",
+      "source_git_blob_sha1": "298138141028c73e6a30bccaa2ec05e032f247a6",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/ai_unblinded_ratings.csv"
+    },
+    {
+      "path": "results/ratings/condition_key.csv",
+      "git_blob_sha1": "4577f669a9ffd2527d48fd1c532f82f69ceddb5f",
+      "source_git_blob_sha1": "4577f669a9ffd2527d48fd1c532f82f69ceddb5f",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/blind/private_key.csv"
+    },
+    {
+      "path": "results/ratings/method.json",
+      "git_blob_sha1": "bafb15bf62c9be701534b907c43c303e20d58dd1",
+      "source_git_blob_sha1": "bafb15bf62c9be701534b907c43c303e20d58dd1",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/ai_rating_method.json"
+    },
+    {
+      "path": "results/ratings/paired.json",
+      "git_blob_sha1": "66787c6bc7320a655edc44370fa67e4071b78b41",
+      "source_git_blob_sha1": "66787c6bc7320a655edc44370fa67e4071b78b41",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/ai_unblinded_paired.json"
+    },
+    {
+      "path": "results/replay/default.baseline.000.json",
+      "git_blob_sha1": "649d7c01b6c4d4570952fbf62849cd93222d7b93",
+      "source_git_blob_sha1": "649d7c01b6c4d4570952fbf62849cd93222d7b93",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/default.baseline.000.json"
+    },
+    {
+      "path": "results/replay/default.baseline.002.json",
+      "git_blob_sha1": "af902661be1b0322587d8d2ed62903cd1e73bbc9",
+      "source_git_blob_sha1": "af902661be1b0322587d8d2ed62903cd1e73bbc9",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/default.baseline.002.json"
+    },
+    {
+      "path": "results/replay/default.baseline.005.json",
+      "git_blob_sha1": "63bb8450c1b307509838e7cb9c725617b0eafb29",
+      "source_git_blob_sha1": "63bb8450c1b307509838e7cb9c725617b0eafb29",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/default.baseline.005.json"
+    },
+    {
+      "path": "results/replay/default.baseline.007.json",
+      "git_blob_sha1": "0a7fe768b8f8166964f64dd2a29b411588eb7d12",
+      "source_git_blob_sha1": "0a7fe768b8f8166964f64dd2a29b411588eb7d12",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/default.baseline.007.json"
+    },
+    {
+      "path": "results/replay/default.baseline.010.json",
+      "git_blob_sha1": "85b3a3b0c08773d8949da55d29c2b95186cb5ddd",
+      "source_git_blob_sha1": "85b3a3b0c08773d8949da55d29c2b95186cb5ddd",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/default.baseline.010.json"
+    },
+    {
+      "path": "results/replay/default.s1_then_s2.000.json",
+      "git_blob_sha1": "b8c0b3643f62ee17bc79e475b4a46c936020b14f",
+      "source_git_blob_sha1": "b8c0b3643f62ee17bc79e475b4a46c936020b14f",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/default.s1_then_s2.000.json"
+    },
+    {
+      "path": "results/replay/default.s1_then_s2.002.json",
+      "git_blob_sha1": "406cd3fa1b90fbdbd79d7944567349c0baff49a3",
+      "source_git_blob_sha1": "406cd3fa1b90fbdbd79d7944567349c0baff49a3",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/default.s1_then_s2.002.json"
+    },
+    {
+      "path": "results/replay/default.s1_then_s2.005.json",
+      "git_blob_sha1": "9428f82f18abe029e34ae1311e8f10be4fbb3de4",
+      "source_git_blob_sha1": "9428f82f18abe029e34ae1311e8f10be4fbb3de4",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/default.s1_then_s2.005.json"
+    },
+    {
+      "path": "results/replay/default.s1_then_s2.007.json",
+      "git_blob_sha1": "8ce82016fb2fb0c13d7d540fe9ce34745ce2f5b7",
+      "source_git_blob_sha1": "8ce82016fb2fb0c13d7d540fe9ce34745ce2f5b7",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/default.s1_then_s2.007.json"
+    },
+    {
+      "path": "results/replay/default.s1_then_s2.010.json",
+      "git_blob_sha1": "e9ec377cac80f0b035b65c10a22dc1c74548dcbd",
+      "source_git_blob_sha1": "e9ec377cac80f0b035b65c10a22dc1c74548dcbd",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/default.s1_then_s2.010.json"
+    },
+    {
+      "path": "results/replay/eager.baseline.000.json",
+      "git_blob_sha1": "997f6fadf48cf6f62ef0ac725a9f40e641d2c791",
+      "source_git_blob_sha1": "997f6fadf48cf6f62ef0ac725a9f40e641d2c791",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/eager.baseline.000.json"
+    },
+    {
+      "path": "results/replay/eager.baseline.002.json",
+      "git_blob_sha1": "5080253abf9223b768af4a4ed301f77ac472f611",
+      "source_git_blob_sha1": "5080253abf9223b768af4a4ed301f77ac472f611",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/eager.baseline.002.json"
+    },
+    {
+      "path": "results/replay/eager.baseline.005.json",
+      "git_blob_sha1": "dee155f4dbb5d1ad0afa11215d5bb218e70ca5de",
+      "source_git_blob_sha1": "dee155f4dbb5d1ad0afa11215d5bb218e70ca5de",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/eager.baseline.005.json"
+    },
+    {
+      "path": "results/replay/eager.baseline.007.json",
+      "git_blob_sha1": "9fa49b098f27c58f47a2479918ccd067142892eb",
+      "source_git_blob_sha1": "9fa49b098f27c58f47a2479918ccd067142892eb",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/eager.baseline.007.json"
+    },
+    {
+      "path": "results/replay/eager.baseline.010.json",
+      "git_blob_sha1": "82158bfe4d2f6f4f3e340da141b3bab2fe53f475",
+      "source_git_blob_sha1": "82158bfe4d2f6f4f3e340da141b3bab2fe53f475",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/eager.baseline.010.json"
+    },
+    {
+      "path": "results/replay/eager.s1_then_s2.000.json",
+      "git_blob_sha1": "4c7e864dd7e3601a5965845ee82037b9bc9f629d",
+      "source_git_blob_sha1": "4c7e864dd7e3601a5965845ee82037b9bc9f629d",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/eager.s1_then_s2.000.json"
+    },
+    {
+      "path": "results/replay/eager.s1_then_s2.002.json",
+      "git_blob_sha1": "a0e0100e74a470e94787bca4c3f9aed399a6919c",
+      "source_git_blob_sha1": "a0e0100e74a470e94787bca4c3f9aed399a6919c",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/eager.s1_then_s2.002.json"
+    },
+    {
+      "path": "results/replay/eager.s1_then_s2.005.json",
+      "git_blob_sha1": "afe6a5cbb1fed96ad283683ec54901cae1b60105",
+      "source_git_blob_sha1": "afe6a5cbb1fed96ad283683ec54901cae1b60105",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/eager.s1_then_s2.005.json"
+    },
+    {
+      "path": "results/replay/eager.s1_then_s2.007.json",
+      "git_blob_sha1": "7c89b56e9109f89c848c7cfcdb4733f178c9dbf9",
+      "source_git_blob_sha1": "7c89b56e9109f89c848c7cfcdb4733f178c9dbf9",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/eager.s1_then_s2.007.json"
+    },
+    {
+      "path": "results/replay/eager.s1_then_s2.010.json",
+      "git_blob_sha1": "181147cb36884d384c3facaedf9a860faf035f10",
+      "source_git_blob_sha1": "181147cb36884d384c3facaedf9a860faf035f10",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/eager.s1_then_s2.010.json"
+    },
+    {
+      "path": "results/replay/summary.json",
+      "git_blob_sha1": "544f1b04cb123e1ba6e4ba98a05c42e1f10abb4a",
+      "source_git_blob_sha1": "544f1b04cb123e1ba6e4ba98a05c42e1f10abb4a",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/replay07/diagnostic/summary.json"
+    },
+    {
+      "path": "results/residual_readouts.json",
+      "git_blob_sha1": "ce96b758441eab938c0d16761289fc6eb8a8eebd",
+      "source_git_blob_sha1": "ce96b758441eab938c0d16761289fc6eb8a8eebd",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/residual_readouts.json"
+    },
+    {
+      "path": "results/smoke_inspection.json",
+      "git_blob_sha1": "17cee0895db3db6c8f3f8ea2d48f83da807cb5fa",
+      "source_git_blob_sha1": "a6aaeaec28ce04f3b55668def2c22312f3c5b4ab",
+      "transformation": "Local run directory omitted.",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/inspection.json"
+    },
+    {
+      "path": "results/smoke/baseline.000.json",
+      "git_blob_sha1": "47ab07020d02623f9018e04d81e8812d1a2c4499",
+      "source_git_blob_sha1": "47ab07020d02623f9018e04d81e8812d1a2c4499",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/baseline.000.json"
+    },
+    {
+      "path": "results/smoke/baseline.001.json",
+      "git_blob_sha1": "5f329a4fe8005d1850d8b741c9a4a94726de3a70",
+      "source_git_blob_sha1": "5f329a4fe8005d1850d8b741c9a4a94726de3a70",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/baseline.001.json"
+    },
+    {
+      "path": "results/smoke/baseline.writers.json",
+      "git_blob_sha1": "659db4bf0b711db01de859e91e3762707c945e66",
+      "source_git_blob_sha1": "659db4bf0b711db01de859e91e3762707c945e66",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/baseline.writers.json"
+    },
+    {
+      "path": "results/smoke/direction_geometry.json",
+      "git_blob_sha1": "624ea43aa42a2d6ceda6c8dec4d093e4db0b285d",
+      "source_git_blob_sha1": "624ea43aa42a2d6ceda6c8dec4d093e4db0b285d",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/direction_geometry.json"
+    },
+    {
+      "path": "results/smoke/joint.000.json",
+      "git_blob_sha1": "7018a781bfe5d6271071656bf2d64c0af6f1cf2b",
+      "source_git_blob_sha1": "7018a781bfe5d6271071656bf2d64c0af6f1cf2b",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/joint.000.json"
+    },
+    {
+      "path": "results/smoke/joint.001.json",
+      "git_blob_sha1": "e96f035ac91d99a601e81fe151628c9ef546a93f",
+      "source_git_blob_sha1": "e96f035ac91d99a601e81fe151628c9ef546a93f",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/joint.001.json"
+    },
+    {
+      "path": "results/smoke/joint.writers.json",
+      "git_blob_sha1": "3d1e82da305f83adeb211c9971b87a0e9e415167",
+      "source_git_blob_sha1": "3d1e82da305f83adeb211c9971b87a0e9e415167",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/joint.writers.json"
+    },
+    {
+      "path": "results/smoke/prompt_token_ids.json",
+      "git_blob_sha1": "40acfdd780ba0716617636bad92edd06544ec9e5",
+      "source_git_blob_sha1": "40acfdd780ba0716617636bad92edd06544ec9e5",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/prompt_token_ids.json"
+    },
+    {
+      "path": "results/smoke/s1_then_s2.000.json",
+      "git_blob_sha1": "3dadfaa81ecce2fc5aefd82d9333a8bc0d1e4da8",
+      "source_git_blob_sha1": "3dadfaa81ecce2fc5aefd82d9333a8bc0d1e4da8",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/s1_then_s2.000.json"
+    },
+    {
+      "path": "results/smoke/s1_then_s2.001.json",
+      "git_blob_sha1": "8dca16b29c64b50436fce51b970b5e1865b3f843",
+      "source_git_blob_sha1": "8dca16b29c64b50436fce51b970b5e1865b3f843",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/s1_then_s2.001.json"
+    },
+    {
+      "path": "results/smoke/s1_then_s2.writers.json",
+      "git_blob_sha1": "693a72be8b4e9bf08188700ee575452ae0fa4eb3",
+      "source_git_blob_sha1": "693a72be8b4e9bf08188700ee575452ae0fa4eb3",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/s1_then_s2.writers.json"
+    },
+    {
+      "path": "results/smoke/s1.000.json",
+      "git_blob_sha1": "782e14a10f377acdd74fcd7d7933569de0c5349e",
+      "source_git_blob_sha1": "782e14a10f377acdd74fcd7d7933569de0c5349e",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/s1.000.json"
+    },
+    {
+      "path": "results/smoke/s1.001.json",
+      "git_blob_sha1": "1c879ec0751d432b6f42eba3f8e6b643f3936e86",
+      "source_git_blob_sha1": "1c879ec0751d432b6f42eba3f8e6b643f3936e86",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/s1.001.json"
+    },
+    {
+      "path": "results/smoke/s1.writers.json",
+      "git_blob_sha1": "71cfaff6a0930d14c12fd8c200710273c816cf48",
+      "source_git_blob_sha1": "71cfaff6a0930d14c12fd8c200710273c816cf48",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/s1.writers.json"
+    },
+    {
+      "path": "results/smoke/s2_then_s1.000.json",
+      "git_blob_sha1": "ad007bdfc3d0973feee4e92aea1ce06fa18c5209",
+      "source_git_blob_sha1": "ad007bdfc3d0973feee4e92aea1ce06fa18c5209",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/s2_then_s1.000.json"
+    },
+    {
+      "path": "results/smoke/s2_then_s1.001.json",
+      "git_blob_sha1": "66af9631dd782494d3d5156fa05fec1fe87e03d5",
+      "source_git_blob_sha1": "66af9631dd782494d3d5156fa05fec1fe87e03d5",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/s2_then_s1.001.json"
+    },
+    {
+      "path": "results/smoke/s2_then_s1.writers.json",
+      "git_blob_sha1": "868906bc66e7e67fb10ddb112ed08b5ff8f0d827",
+      "source_git_blob_sha1": "868906bc66e7e67fb10ddb112ed08b5ff8f0d827",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/s2_then_s1.writers.json"
+    },
+    {
+      "path": "results/smoke/s2.000.json",
+      "git_blob_sha1": "6985e3d16a1fac62f7a98e43197acafa3cafdfff",
+      "source_git_blob_sha1": "6985e3d16a1fac62f7a98e43197acafa3cafdfff",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/s2.000.json"
+    },
+    {
+      "path": "results/smoke/s2.001.json",
+      "git_blob_sha1": "835d63a263203c1b0d4b9780c96ccf9db52d41ba",
+      "source_git_blob_sha1": "835d63a263203c1b0d4b9780c96ccf9db52d41ba",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/s2.001.json"
+    },
+    {
+      "path": "results/smoke/s2.writers.json",
+      "git_blob_sha1": "a85c0aef58df79f799b1cbd5ea5a4e8890d4a073",
+      "source_git_blob_sha1": "a85c0aef58df79f799b1cbd5ea5a4e8890d4a073",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/s2.writers.json"
+    },
+    {
+      "path": "results/smoke/settings.json",
+      "git_blob_sha1": "d361a7ccaad3f6aeb64a1b0c370056d6d2c80e8b",
+      "source_git_blob_sha1": "d361a7ccaad3f6aeb64a1b0c370056d6d2c80e8b",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/generations/settings.json"
+    },
+    {
+      "path": "results/synthetic_geometry.json",
+      "git_blob_sha1": "4f7dad27030f1cb21fe5bb4b6bac3b20b6f92c83",
+      "source_git_blob_sha1": "4f7dad27030f1cb21fe5bb4b6bac3b20b6f92c83",
+      "transformation": "none",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "pain_axis/geometry.json"
+    }
+  ],
+  "supplemental_artifacts": [
+    {
+      "path": "results/recovered_direction_vectors.json",
+      "git_blob_sha1": "e618abf662a78dae629516069f3e55397b55b63d",
+      "source_repository": "private-source-archive",
+      "source_commit": "29175c65ccca87eacda0b38d5e83f4ea94709478",
+      "source_path": "audit/2026-11-19/smoke06/regenerated_vectors.json",
+      "source_git_blob_sha1": "e618abf662a78dae629516069f3e55397b55b63d",
+      "transformation": "none",
+      "note": "Recovered float32 values of the regenerated pilot directions in source JSON; not the original serialized .pt tensor container. Its tensor_file_sha256 records the historical .pt identity, not the identity of this JSON or any newly materialized file."
+    }
+  ],
+  "source_repository_note": "private-source-archive is a label, not a repository URL. The private source repository identifier is withheld in this distribution. Source commits, relative paths and content hashes are unchanged; the author retains the original manifest."
+}

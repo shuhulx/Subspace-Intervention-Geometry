@@ -1,0 +1,245 @@
+{
+  "scope": "checkpoint inspection; no independent blinded human ratings",
+  "conditions": {
+    "baseline": {
+      "completed_prompts": 10,
+      "missing_ids": [],
+      "batch_seconds": 7.285461145999989,
+      "category_counts": {
+        "personhood_dismissal": 2,
+        "anger_insults": 2,
+        "gaslighting": 2,
+        "repeated_rejection": 2,
+        "moral_failure": 2
+      },
+      "empty_output_ids": [],
+      "historical_replay": {
+        "n": 10,
+        "exact_matches": 6,
+        "whitespace_matches": 6,
+        "mismatch_ids": [
+          "dismissal_01",
+          "insult_01",
+          "insult_02",
+          "rejection_02"
+        ]
+      },
+      "writers": {
+        "n": 53,
+        "max_relative_leakage_each_direction": [
+          1,
+          1
+        ],
+        "mean_relative_writer_change_unweighted": 0,
+        "max_relative_writer_change": 0
+      }
+    },
+    "s1": {
+      "completed_prompts": 10,
+      "missing_ids": [],
+      "batch_seconds": 6.9945488409999825,
+      "category_counts": {
+        "personhood_dismissal": 2,
+        "anger_insults": 2,
+        "gaslighting": 2,
+        "repeated_rejection": 2,
+        "moral_failure": 2
+      },
+      "empty_output_ids": [],
+      "historical_replay": {
+        "n": 10,
+        "exact_matches": 2,
+        "whitespace_matches": 2,
+        "mismatch_ids": [
+          "dismissal_01",
+          "dismissal_02",
+          "insult_02",
+          "gaslight_01",
+          "gaslight_02",
+          "rejection_01",
+          "rejection_02",
+          "moral_01"
+        ]
+      },
+      "writers": {
+        "n": 53,
+        "max_relative_leakage_each_direction": [
+          0.006414050702005625,
+          0.9526040554046631
+        ],
+        "mean_relative_writer_change_unweighted": 0.025124601984642586,
+        "max_relative_writer_change": 0.03205391392111778
+      }
+    },
+    "s2": {
+      "completed_prompts": 10,
+      "missing_ids": [],
+      "batch_seconds": 6.946514645999969,
+      "category_counts": {
+        "personhood_dismissal": 2,
+        "anger_insults": 2,
+        "gaslighting": 2,
+        "repeated_rejection": 2,
+        "moral_failure": 2
+      },
+      "empty_output_ids": [],
+      "historical_replay": {
+        "n": 10,
+        "exact_matches": 2,
+        "whitespace_matches": 2,
+        "mismatch_ids": [
+          "dismissal_01",
+          "dismissal_02",
+          "insult_01",
+          "insult_02",
+          "gaslight_01",
+          "gaslight_02",
+          "rejection_01",
+          "moral_02"
+        ]
+      },
+      "writers": {
+        "n": 53,
+        "max_relative_leakage_each_direction": [
+          0.9523094892501831,
+          0.00618490157648921
+        ],
+        "mean_relative_writer_change_unweighted": 0.025027936359621444,
+        "max_relative_writer_change": 0.03231867030262947
+      }
+    },
+    "s1_then_s2": {
+      "completed_prompts": 10,
+      "missing_ids": [],
+      "batch_seconds": 6.90779570299992,
+      "category_counts": {
+        "personhood_dismissal": 2,
+        "anger_insults": 2,
+        "gaslighting": 2,
+        "repeated_rejection": 2,
+        "moral_failure": 2
+      },
+      "empty_output_ids": [],
+      "historical_replay": {
+        "n": 10,
+        "exact_matches": 6,
+        "whitespace_matches": 6,
+        "mismatch_ids": [
+          "dismissal_02",
+          "insult_02",
+          "gaslight_02",
+          "rejection_02"
+        ]
+      },
+      "writers": {
+        "n": 53,
+        "max_relative_leakage_each_direction": [
+          0.3130548596382141,
+          0.0063276467844843864
+        ],
+        "mean_relative_writer_change_unweighted": 0.034694823629732405,
+        "max_relative_writer_change": 0.043950892984867096
+      }
+    },
+    "s2_then_s1": {
+      "completed_prompts": 10,
+      "missing_ids": [],
+      "batch_seconds": 6.881284277000077,
+      "category_counts": {
+        "personhood_dismissal": 2,
+        "anger_insults": 2,
+        "gaslighting": 2,
+        "repeated_rejection": 2,
+        "moral_failure": 2
+      },
+      "empty_output_ids": [],
+      "writers": {
+        "n": 53,
+        "max_relative_leakage_each_direction": [
+          0.006717989221215248,
+          0.33922329545021057
+        ],
+        "mean_relative_writer_change_unweighted": 0.03469933720551572,
+        "max_relative_writer_change": 0.0438956692814827
+      }
+    },
+    "joint": {
+      "completed_prompts": 10,
+      "missing_ids": [],
+      "batch_seconds": 6.9237311319999435,
+      "category_counts": {
+        "personhood_dismissal": 2,
+        "anger_insults": 2,
+        "gaslighting": 2,
+        "repeated_rejection": 2,
+        "moral_failure": 2
+      },
+      "empty_output_ids": [],
+      "writers": {
+        "n": 53,
+        "max_relative_leakage_each_direction": [
+          0.002234517829492688,
+          0.0022972864098846912
+        ],
+        "mean_relative_writer_change_unweighted": 0.034596316832697614,
+        "max_relative_writer_change": 0.042369235306978226
+      }
+    }
+  },
+  "validity_issues": [],
+  "settings": {
+    "model": "google/gemma-2-2b-it",
+    "revision": "299a8560bedf22ed1c72a8a11e7dce4a7f9f51f8",
+    "source": "213fb6c89c96004dbe93d1704c636ad8c9d801f3",
+    "pr": "a0a955052852f31afbc2b8ddfbd508d60a7b432b",
+    "vectors_sha256": "a3878eb7072a77fe62f7fd16a6be6027a30038daa20254f7be9fbd699dfe0c1d",
+    "vectors_provenance": "regenerated",
+    "dataset_sha256": "901ea558faf34c69caff59321775723e20bebf49a77d20070f6b85a0368a3291",
+    "dtype": "bfloat16",
+    "seed": 42,
+    "greedy_max_new_tokens": 60,
+    "batch_size": 8,
+    "disable_compile": true,
+    "prompt_ids": [
+      "dismissal_01",
+      "dismissal_02",
+      "insult_01",
+      "insult_02",
+      "gaslight_01",
+      "gaslight_02",
+      "rejection_01",
+      "rejection_02",
+      "moral_01",
+      "moral_02"
+    ],
+    "torch": "2.8.0+cu128",
+    "transformers": "4.55.4",
+    "cuda": "12.8",
+    "gpu": "NVIDIA L4",
+    "vram_bytes": 23659151360,
+    "runner_sha256": "8778b1403ffa7bc450d48775cbe1263ff2c319bf5a40531dac1a58f01f1e55b1"
+  },
+  "input_tokens_sha256": "7791eae52f64fd5244bf011b3447282c5646ade506a5519b508afc8cb7a50c9a",
+  "historical_generation_sha256": "0908b47afdd642ff3eb0186f814252706734e5d7e38bcbb1646ca329d838b6c1",
+  "complete_six_condition_panel": true,
+  "paired_text_changes": {
+    "baseline -> s1_then_s2": {
+      "paired_n": 10,
+      "exact_text_changed": 10,
+      "interpretation": "Wording change only; does not establish humor, deflection, coherence, relevance or competence."
+    },
+    "s1_then_s2 -> s2_then_s1": {
+      "paired_n": 10,
+      "exact_text_changed": 10,
+      "interpretation": "Wording change only; does not establish humor, deflection, coherence, relevance or competence."
+    },
+    "s1_then_s2 -> joint": {
+      "paired_n": 10,
+      "exact_text_changed": 10,
+      "interpretation": "Wording change only; does not establish humor, deflection, coherence, relevance or competence."
+    }
+  },
+  "total_batch_seconds": 41.93933574499988,
+  "ratings_available": false,
+  "general_competence_control": "Not run; hostile conversations do not establish preserved general competence"
+}

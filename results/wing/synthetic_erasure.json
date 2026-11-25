@@ -1,0 +1,267 @@
+{
+  "kind": "synthetic_fixture",
+  "symbols_per_trajectory": 4096,
+  "partitions": {
+    "eraser_fit": [
+      7101,
+      7102
+    ],
+    "probe_fit": [
+      7201,
+      7202
+    ],
+    "validation": [
+      7301
+    ],
+    "evaluation": [
+      7401,
+      7402
+    ]
+  },
+  "scenarios": {
+    "translation": {
+      "clean_B": {
+        "validation": {
+          "relative_cross_covariance": 1.0000000000000002,
+          "fresh_probe_r2": 0.8835121502591632,
+          "edit_rms": 3.369712445266373e-17
+        },
+        "evaluation": {
+          "relative_cross_covariance": 1.0,
+          "fresh_probe_r2": 0.9107305719811725,
+          "edit_rms": 3.74475331731872e-17
+        }
+      },
+      "random_B": {
+        "validation": {
+          "relative_cross_covariance": 0.948731445995773,
+          "fresh_probe_r2": 0.8139590181256544,
+          "edit_rms": 0.8169352584704216
+        },
+        "evaluation": {
+          "relative_cross_covariance": 0.9298435880615806,
+          "fresh_probe_r2": 0.871513358968043,
+          "edit_rms": 0.851899314951148
+        }
+      },
+      "orthogonal_A_native": {
+        "validation": {
+          "relative_cross_covariance": 0.018747862493900817,
+          "fresh_probe_r2": -0.14685790535186594,
+          "edit_rms": 1.417070763453001
+        },
+        "evaluation": {
+          "relative_cross_covariance": 0.016272438981614613,
+          "fresh_probe_r2": -0.00021183219700726674,
+          "edit_rms": 1.4731375386633276
+        }
+      },
+      "orthogonal_A_to_B": {
+        "validation": {
+          "relative_cross_covariance": 0.01874786249390078,
+          "fresh_probe_r2": -0.1468579053518655,
+          "edit_rms": 1.9503199331299164
+        },
+        "evaluation": {
+          "relative_cross_covariance": 0.01627243898161457,
+          "fresh_probe_r2": -0.00021183219700726674,
+          "edit_rms": 1.7572501771071543
+        }
+      },
+      "orthogonal_A_to_B_recentered": {
+        "validation": {
+          "relative_cross_covariance": 0.018747862493900817,
+          "fresh_probe_r2": -0.14685790535186571,
+          "edit_rms": 1.4170707634530013
+        },
+        "evaluation": {
+          "relative_cross_covariance": 0.016272438981614578,
+          "fresh_probe_r2": -0.00021183219700726674,
+          "edit_rms": 1.4731375386633279
+        }
+      },
+      "orthogonal_B_native": {
+        "validation": {
+          "relative_cross_covariance": 0.0187478624939008,
+          "fresh_probe_r2": -0.14685790535186571,
+          "edit_rms": 1.4170707634530018
+        },
+        "evaluation": {
+          "relative_cross_covariance": 0.01627243898161458,
+          "fresh_probe_r2": -0.00021183219700726674,
+          "edit_rms": 1.473137538663328
+        }
+      },
+      "leace_A_native": {
+        "validation": {
+          "relative_cross_covariance": 0.018751096851950207,
+          "fresh_probe_r2": -0.14685790535186594,
+          "edit_rms": 1.4169529338864872
+        },
+        "evaluation": {
+          "relative_cross_covariance": 0.0162755371452017,
+          "fresh_probe_r2": -0.00021183219700726674,
+          "edit_rms": 1.4731220917350276
+        }
+      },
+      "leace_A_to_B": {
+        "validation": {
+          "relative_cross_covariance": 0.018751096851950196,
+          "fresh_probe_r2": -0.14685790535186594,
+          "edit_rms": 1.9400877628138575
+        },
+        "evaluation": {
+          "relative_cross_covariance": 0.01627553714520173,
+          "fresh_probe_r2": -0.00021183219700726674,
+          "edit_rms": 1.7502329016884381
+        }
+      },
+      "leace_A_to_B_recentered": {
+        "validation": {
+          "relative_cross_covariance": 0.018751096851950196,
+          "fresh_probe_r2": -0.14685790535186638,
+          "edit_rms": 1.4169529338864877
+        },
+        "evaluation": {
+          "relative_cross_covariance": 0.016275537145201715,
+          "fresh_probe_r2": -0.00021183219700726674,
+          "edit_rms": 1.4731220917350276
+        }
+      },
+      "leace_B_native": {
+        "validation": {
+          "relative_cross_covariance": 0.01875109685195023,
+          "fresh_probe_r2": -0.14685790535186638,
+          "edit_rms": 1.4169529338864852
+        },
+        "evaluation": {
+          "relative_cross_covariance": 0.016275537145201757,
+          "fresh_probe_r2": -0.00021183219700726674,
+          "edit_rms": 1.4731220917350252
+        }
+      }
+    },
+    "rotated": {
+      "clean_B": {
+        "validation": {
+          "relative_cross_covariance": 1.0000000000000004,
+          "fresh_probe_r2": 0.8835121502591632,
+          "edit_rms": 2.3488266900431945e-18
+        },
+        "evaluation": {
+          "relative_cross_covariance": 1.0,
+          "fresh_probe_r2": 0.9107305719811725,
+          "edit_rms": 2.1828125057670448e-18
+        }
+      },
+      "random_B": {
+        "validation": {
+          "relative_cross_covariance": 0.8949351183469489,
+          "fresh_probe_r2": 0.7952251083334755,
+          "edit_rms": 0.8444444946794523
+        },
+        "evaluation": {
+          "relative_cross_covariance": 0.9177067463284719,
+          "fresh_probe_r2": 0.8595872662238441,
+          "edit_rms": 0.8131538414173775
+        }
+      },
+      "orthogonal_A_native": {
+        "validation": {
+          "relative_cross_covariance": 0.018747862493900817,
+          "fresh_probe_r2": -0.14685790535186594,
+          "edit_rms": 1.417070763453001
+        },
+        "evaluation": {
+          "relative_cross_covariance": 0.016272438981614613,
+          "fresh_probe_r2": -0.00021183219700726674,
+          "edit_rms": 1.4731375386633276
+        }
+      },
+      "orthogonal_A_to_B": {
+        "validation": {
+          "relative_cross_covariance": 0.9998057009125503,
+          "fresh_probe_r2": 0.8835083229311527,
+          "edit_rms": 1.1234316833238225
+        },
+        "evaluation": {
+          "relative_cross_covariance": 0.999881641863855,
+          "fresh_probe_r2": 0.910676744340515,
+          "edit_rms": 1.1213144628240792
+        }
+      },
+      "orthogonal_A_to_B_recentered": {
+        "validation": {
+          "relative_cross_covariance": 0.9998057009125502,
+          "fresh_probe_r2": 0.8835083229311526,
+          "edit_rms": 0.5924445538817849
+        },
+        "evaluation": {
+          "relative_cross_covariance": 0.9998816418638553,
+          "fresh_probe_r2": 0.910676744340515,
+          "edit_rms": 0.5823546669487346
+        }
+      },
+      "orthogonal_B_native": {
+        "validation": {
+          "relative_cross_covariance": 0.01874786249390079,
+          "fresh_probe_r2": -0.14685790535186571,
+          "edit_rms": 1.4170707634530009
+        },
+        "evaluation": {
+          "relative_cross_covariance": 0.01627243898161457,
+          "fresh_probe_r2": -0.00021183219700726674,
+          "edit_rms": 1.4731375386633279
+        }
+      },
+      "leace_A_native": {
+        "validation": {
+          "relative_cross_covariance": 0.018751096851950207,
+          "fresh_probe_r2": -0.14685790535186594,
+          "edit_rms": 1.4169529338864872
+        },
+        "evaluation": {
+          "relative_cross_covariance": 0.0162755371452017,
+          "fresh_probe_r2": -0.00021183219700726674,
+          "edit_rms": 1.4731220917350276
+        }
+      },
+      "leace_A_to_B": {
+        "validation": {
+          "relative_cross_covariance": 0.9998388120884181,
+          "fresh_probe_r2": 0.8835083229311526,
+          "edit_rms": 1.1102188057895555
+        },
+        "evaluation": {
+          "relative_cross_covariance": 0.9999076794981628,
+          "fresh_probe_r2": 0.910676744340515,
+          "edit_rms": 1.1100479288946457
+        }
+      },
+      "leace_A_to_B_recentered": {
+        "validation": {
+          "relative_cross_covariance": 0.9998388120884183,
+          "fresh_probe_r2": 0.8835083229311524,
+          "edit_rms": 0.5921177670985814
+        },
+        "evaluation": {
+          "relative_cross_covariance": 0.999907679498163,
+          "fresh_probe_r2": 0.910676744340515,
+          "edit_rms": 0.582152357128006
+        }
+      },
+      "leace_B_native": {
+        "validation": {
+          "relative_cross_covariance": 0.018751096851950363,
+          "fresh_probe_r2": -0.14685790535186616,
+          "edit_rms": 1.4169529338864866
+        },
+        "evaluation": {
+          "relative_cross_covariance": 0.01627553714520179,
+          "fresh_probe_r2": -0.00021183219700726674,
+          "edit_rms": 1.4731220917350272
+        }
+      }
+    }
+  }
+}

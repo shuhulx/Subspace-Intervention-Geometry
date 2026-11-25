@@ -1,0 +1,10 @@
+{
+  "rater": "Codex AI review of all 60 actual generations and 10 prompts",
+  "blinded": false,
+  "independent_humans": 0,
+  "rubric_sha256": "6d73eadd0d3953bd787dc79eecb767a8f2f8c865674cfdb8288d314b18216c7b",
+  "status": "exploratory unblinded AI annotations; not independent validation or a human-rated result",
+  "humor_rationale": "Only explicit playful-jab or having-fun reframings count. Emojis, offering to write a joke and serious replies do not.",
+  "relevance_rationale": "Generic dismissal replies and misunderstanding whose servers were criticized, or replacing the plagiarism accusation with generic AI ethics, scored zero. Context requests responding to missing conversation details scored one.",
+  "coherence_rationale": "All continuations are intelligible; truncation at the common 60-token cap is allowed by the frozen rubric. Coherence does not establish truthfulness or general competence."
+}
